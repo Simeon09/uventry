@@ -83,14 +83,14 @@ function NavScrollExample() {
                     </ul>
                     <p>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
                 </div>
-                <div>
+                <div className='social'>
                     <FaFacebookF/>
                     <FaInstagram/>
                     <FaTwitter/>
                     <FaEnvelope/>
                 </div>
                 <div>
-                <button><FaRegQuestionCircle/> help</button>
+                <button><FaRegQuestionCircle className='icon'/> Help</button>
                 </div>
             
         </footer>

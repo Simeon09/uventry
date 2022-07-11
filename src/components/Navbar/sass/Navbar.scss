@@ -58,11 +58,33 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    align-items: center;
     div:first-child{
         ul{
             display: flex;
             justify-content: space-evenly;
             margin-left: -50px;
+        }
+    }
+    div:nth-child(2){
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+    }
+    button{
+        background: #FFA500;
+        color: white;
+        font-family: lucida;
+        font-weight: 600;
+        border-radius: 20px;
+        border: #FFA500;
+        font-size: 20px;
+        padding: 5px 15px;
+        .icon{
+            font-size: 27px;
+        }
+        &:hover{
+            background-color: green;
         }
     }
 }
