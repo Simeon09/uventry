@@ -10,19 +10,59 @@
     font-family: lucida;
     font-weight: 600;
     color: #404040;
+    font-size: 20px;
     
 }
 .home{
     color: #FFA500 !important;
+    font-family: lucida;
+    font-weight: 600;
+    font-size: 20px;
+    
     
 }
 .sectionOne{
     h3{
         font-family: lucida;
         font-weight: 600;
-        font-size: 30px;  
+        font-size: 34px;  
         line-height: 44.75px;  
+        padding-top: 60px;
     }
     color: #404040;
-    
+    p{
+        font-family: lucida;
+        font-weight: 400; 
+        font-style: italic;
+        line-height: 1.2;
+        font-size: 24px;
+        padding-top: 15px;
+        padding-bottom: 80px;
+    }
+    button{
+        background: #FFA500;
+        color: white;
+        font-family: lucida;
+        font-weight: 600;
+        border-radius: 20px;
+        font-size: 22px;
+        padding: 5px 20px;
+        box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border: #FFA500;
+        &:hover{
+            background-color: green;
+        }
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    div:first-child{
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: -50px;
+        }
+    }
 }

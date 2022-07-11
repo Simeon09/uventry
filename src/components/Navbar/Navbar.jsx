@@ -12,6 +12,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import office from '../assests/Images/office img.svg'
 import Image from 'react-bootstrap/Image'
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter} from "react-icons/fa";
+import {FaInstagram} from "react-icons/fa";
+import {FaEnvelope} from "react-icons/fa";
+import {FaRegQuestionCircle} from "react-icons/fa";
+
 
 function NavScrollExample() {
   return (
@@ -50,18 +56,44 @@ function NavScrollExample() {
         </Navbar>
         <Container>
             <Row>
-                <Col md className='sectionOne'><h3>Inventory Management <br></br>
-                    Software FOR GROWING BUSINESS</h3>
+                <Col lg className='sectionOne'><h3>INVENTORY MANAGEMENT <br></br>
+                    SOFTWARE FOR GROWING BUSINESS</h3>
 
                     <p>Easy way to store, track every unit of  <br></br>
                         your businesses and update on catalogue</p>
                     
                     <button>Get started</button>
                 </Col>
-                <Col md >
+                <Col lg >
                 <img src={office} className='img-fluid' alt='land' />
                 </Col>
             </Row>
+        </Container>
+        <Container>
+        <footer>
+
+            
+                <div>
+                    <ul>
+                        <li>About</li>
+                        <li>faq</li>
+                        <li>Help</li>
+                        <li>Privacy</li>
+                        <li>Terms</li>
+                    </ul>
+                    <p>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
+                </div>
+                <div>
+                    <FaFacebookF/>
+                    <FaInstagram/>
+                    <FaTwitter/>
+                    <FaEnvelope/>
+                </div>
+                <div>
+                <button><FaRegQuestionCircle/> help</button>
+                </div>
+            
+        </footer>
         </Container>
     </div>
   );
