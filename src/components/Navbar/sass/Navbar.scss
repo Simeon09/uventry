@@ -59,6 +59,12 @@ footer{
     justify-content: space-between;
     padding-top: 40px;
     align-items: center;
+    .uvent{
+        display: none;
+    }
+    .copyright{
+        display: contents;
+    }
     div:first-child{
         ul{
             display: flex;
@@ -86,5 +92,44 @@ footer{
         &:hover{
             background-color: green;
         }
+    }
+    @media screen and (max-width:991px) {
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 20px;
+        
+        .uvent{
+            display: contents;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .copyright{
+            display: none;
+        }
+        div:nth-child(2){
+            padding-bottom: 20px;
+            padding-top: 10px;
+
+        }
+        button{
+            font-size: 16px;
+            padding: 5px 10px;
+            .icon{
+                font-size: 20px;
+            }
+        } 
+    }
+    @media screen and (max-width:400px) {
+
+        div:first-child{
+            ul{
+               
+                margin-left: -10px;
+                gap: 20px;
+                
+            }
+        }
+        
     }
 }

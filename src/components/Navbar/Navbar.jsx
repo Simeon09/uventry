@@ -81,7 +81,7 @@ function NavScrollExample() {
                         <li>Privacy</li>
                         <li>Terms</li>
                     </ul>
-                    <p>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
+                    <p className='copyright'>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
                 </div>
                 <div className='social'>
                     <FaFacebookF/>
@@ -92,7 +92,7 @@ function NavScrollExample() {
                 <div>
                 <button><FaRegQuestionCircle className='icon'/> Help</button>
                 </div>
-            
+                <p className='uvent'>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
         </footer>
         </Container>
     </div>
