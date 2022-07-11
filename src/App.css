@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "lucida";   /*Can be any text*/
+  src: local("Lucida_Bright_Demibold_italic"),
+    url("./assests/lucida-bright/Lucida_Bright_Demibold_italic.ttf") format("truetype");
+}

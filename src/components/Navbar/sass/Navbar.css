@@ -1,0 +1,31 @@
+.logo {
+  width: 150px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.arrow {
+  width: 10px;
+}
+
+.links {
+  font-family: lucida;
+  font-weight: 600;
+  color: #404040;
+}
+
+.home {
+  color: #FFA500 !important;
+}
+
+.sectionOne {
+  color: #404040;
+}
+
+.sectionOne h3 {
+  font-family: lucida;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44.75px;
+}
+/*# sourceMappingURL=Navbar.css.map */
