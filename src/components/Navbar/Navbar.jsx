@@ -17,6 +17,8 @@ import { FaTwitter} from "react-icons/fa";
 import {FaInstagram} from "react-icons/fa";
 import {FaEnvelope} from "react-icons/fa";
 import {FaRegQuestionCircle} from "react-icons/fa";
+import {FaRegCopyright} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 function NavScrollExample() {
@@ -62,7 +64,7 @@ function NavScrollExample() {
                     <p>Easy way to store, track every unit of  <br></br>
                         your businesses and update on catalogue</p>
                     
-                    <button>Get started</button>
+                    <Link to='/Login'><button>Get started</button></Link>
                 </Col>
                 <Col lg >
                 <img src={office} className='img-fluid' alt='land' />
@@ -81,7 +83,7 @@ function NavScrollExample() {
                         <li>Privacy</li>
                         <li>Terms</li>
                     </ul>
-                    <p className='copyright'>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
+                    <p className='copyright'> <FaRegCopyright/> 2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
                 </div>
                 <div className='social'>
                     <FaFacebookF/>
@@ -92,7 +94,7 @@ function NavScrollExample() {
                 <div>
                 <button><FaRegQuestionCircle className='icon'/> Help</button>
                 </div>
-                <p className='uvent'>2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
+                <p className='uvent'> <span>< FaRegCopyright/></span> 2022, Uventory Corporation Pvt. Ltd. All Rights Reserved</p>
         </footer>
         </Container>
     </div>

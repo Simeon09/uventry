@@ -59,6 +59,7 @@ footer{
     justify-content: space-between;
     padding-top: 40px;
     align-items: center;
+    padding-bottom: 20px;
     .uvent{
         display: none;
     }
@@ -98,11 +99,20 @@ footer{
         flex-direction: column;
         align-items: flex-start;
         padding-bottom: 20px;
+        div:first-child{
+            ul{
+               
+                margin-left: -10px;
+                gap: 50px;
+                
+            }
+        }
         
         .uvent{
             display: contents;
-            text-align: center;
+             text-align: center;
             padding-top: 10px;
+            display: flex;
         }
         .copyright{
             display: none;
@@ -115,12 +125,14 @@ footer{
         button{
             font-size: 16px;
             padding: 5px 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
             .icon{
                 font-size: 20px;
             }
         } 
     }
-    @media screen and (max-width:400px) {
+    @media screen and (max-width:437px) {
 
         div:first-child{
             ul{
