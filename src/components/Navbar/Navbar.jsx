@@ -12,12 +12,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import office from '../assests/Images/office img.svg'
 import Image from 'react-bootstrap/Image'
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter} from "react-icons/fa";
-import {FaInstagram} from "react-icons/fa";
-import {FaEnvelope} from "react-icons/fa";
-import {FaRegQuestionCircle} from "react-icons/fa";
-import {FaRegCopyright} from "react-icons/fa";
+import { FaFacebookF, FaTwitter,FaInstagram,FaEnvelope,FaRegQuestionCircle, FaRegCopyright} from "react-icons/fa";
+
 import { Link } from "react-router-dom";
 
 
