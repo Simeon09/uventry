@@ -8,6 +8,7 @@ import Container from "react-bootstrap/Container";
 import office from "../../assests/Images/office img.svg";
 import google from "../../assests/Images/image 2.svg";
 import linkden from "../../assests/Images/linkden.png";
+import Emoji from '../../assests/Images/Emoji.png';
 import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import './sass/login.css'
@@ -24,15 +25,15 @@ const Login = () => {
                 <img src={office} className="img-fluid" alt="land" />
               </Col>
               <Col md={6} className='formSide'>
-                <h6>Welcome back! </h6>
+                <h6>Welcome back! <span><img src={Emoji} alt='emoji'/></span> </h6>
                 <h5>How may we update your Uventory today?</h5>
-                <div>
-                  <button>
+                <div >
+                  <button className="btn1">
                     {" "}
                     <img src={google} alt="logo" />
                     Continue with Google
                   </button>
-                  <button>
+                  <button className="btn2">
                     {" "}
                     <img src={linkden} alt="logo" />
                     Continue with LinkedIn
@@ -40,8 +41,8 @@ const Login = () => {
                 </div>
                 <Form>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Email address" />
+                    
+                    <Form.Control className="input" type="email" placeholder="Email address" />
           
                   </Form.Group>
                   <Form.Group className="mb-3" controlId="formBasicPassword">

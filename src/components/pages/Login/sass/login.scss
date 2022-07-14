@@ -1,14 +1,80 @@
-.login{
-    background-image: linear-gradient( to right, white 50%,  #f9f9f9 50%,);
-    
+.login {
+    background-image: linear-gradient(to right, white 50%, #f9f9f9 50%, );
+
 }
-.formSide{
+
+.formSide {
     background-color: #f9f9f9;
     border-radius: 20px;
     margin-top: -65px;
     padding-left: 90px;
     padding-right: 90px;
-    h6{
+
+    h6 {
         padding-top: 70px;
+        font-family: Lucida Calligraphy;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        color: #525252;
+        ;
+
+        span {
+            padding-left: 10px;
+        }
+    }
+
+    h5 {
+        font-family: Lucida;
+        font-weight: 600;
+        color: #525252;
+        font-size: 23px;
+    }
+
+    h5+div {
+        padding-top: 40px;
+        display: flex;
+        padding-bottom: 40px;
+
+        .btn1 {
+            background-color: white;
+            margin-right: 20px;
+            border-color: #FFA500;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-family: Lucida;
+            font-weight: 600;
+            font-size: 16px;
+
+            img {
+                padding-right: 10px;
+            }
+
+            &:hover {
+                background-color: #FFA500;
+            }
+        }
+
+        .btn2 {
+            @extend .btn1;
+            margin-right: 0px;
+        }
+
+        Form {
+            Form.Group{
+                Form.Control{
+                    input{
+
+                        border-top: none !important;
+                        border-right: none;
+                        border-left: none;
+                        background-color: transparent;
+                        border-bottom: 2px solid black;
+                        border-radius: 0px
+                    }
+                }
+            }
+
+        }
     }
 }
