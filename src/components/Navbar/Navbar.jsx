@@ -4,14 +4,13 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Logo from '../assests/Images/uventorylogo.svg'
-import Arrow from  '../assests/Images/arrow.svg'
-import './sass/Navbar.css'
-
+import Logo from '../assests/Images/uventorylogo.svg';
+import Arrow from  '../assests/Images/arrow.svg';
+import './sass/Navbar.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import office from '../assests/Images/office img.svg'
-import Image from 'react-bootstrap/Image'
+import office from '../assests/Images/office img.svg';
+
 import { FaFacebookF, FaTwitter,FaInstagram,FaEnvelope,FaRegQuestionCircle, FaRegCopyright} from "react-icons/fa";
 
 import { Link } from "react-router-dom";

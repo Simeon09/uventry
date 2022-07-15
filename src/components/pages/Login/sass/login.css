@@ -62,12 +62,51 @@
   margin-right: 0px;
 }
 
-.formSide h5 + div Form Form.Group Form.Control input {
+.formSide Form .group .input {
   border-top: none !important;
   border-right: none;
   border-left: none;
   background-color: transparent;
   border-bottom: 2px solid black;
   border-radius: 0px;
+  margin-bottom: 40px;
+}
+
+.formSide Form .submitbtn {
+  width: 100%;
+  border-top: none !important;
+  border-right: none;
+  border-left: none;
+  background-color: transparent;
+  border-bottom: 2px solid #FF9B21;
+  border-radius: 0px;
+  color: #A1A1A1;
+  font-family: lucida;
+  margin-bottom: 30px;
+}
+
+.formSide Form .submitbtn:hover {
+  color: #FF9B21;
+}
+
+.formSide .forget {
+  color: #FF9B21;
+  font-style: italic;
+  font-family: lucida;
+  font-size: 14px;
+}
+
+.formSide .forget + p {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #A1A1A1;
+  font-family: lucida;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.formSide .forget + p span .account {
+  color: #FF9B21;
 }
 /*# sourceMappingURL=login.css.map */

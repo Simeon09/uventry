@@ -40,22 +40,22 @@ const Login = () => {
                   </button>
                 </div>
                 <Form>
-                  <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Group className="mb-3 group" controlId="formBasicEmail">
                     
                     <Form.Control className="input" type="email" placeholder="Email address" />
           
                   </Form.Group>
-                  <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
+                  <Form.Group className="mb-3 group" controlId="formBasicPassword">
+                   
+                    <Form.Control className="input" type="password" placeholder="Password" />
                   </Form.Group>
           
-                  <Button variant="primary" type="submit">
-                    Submit
+                  <Button className="submitbtn"  type="submit">
+                    Login
                   </Button>
                 </Form>
-                <Link to=''>Forget Password?</Link>
-                <p>Not Registered?<span><Link to=''>Create an Account</Link></span></p>
+                <Link to='' className="forget">Forget Password?</Link>
+                <p>Not Registered?<span><Link className="account" to=''>Create an Account</Link></span></p>
               </Col>
             </Row>
           </Container>
