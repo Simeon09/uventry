@@ -26,7 +26,7 @@ const Login = () => {
             <Col lg={6} className="form">
               <h6>Create Account </h6>
 
-              <div>
+              <div >
                 <button className="btn1">
                   {" "}
                   <img src={google} alt="logo" />
@@ -38,7 +38,7 @@ const Login = () => {
                   Continue with LinkedIn
                 </button>
               </div>
-              <h6>-OR-</h6>
+              <h5>-OR-</h5>
               <Form>
                 <Form.Group className="mb-3 group" controlId="formBasicEmail">
                   <Form.Control
@@ -74,7 +74,7 @@ const Login = () => {
                     placeholder=" Confirm Password"
                   />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                <Form.Group className="mb-3 group" controlId="formBasicCheckbox">
                   <Form.Check type="checkbox" label="Creating an account means you’re okay with our Terms of Service, Privacy Policy." />
                 </Form.Group>
 
@@ -83,10 +83,10 @@ const Login = () => {
                 </Button>
               </Form>
               
-              <p>
-              Already have an account? Login
+              <p className="account">
+              Already have an account?
                 <span>
-                  <Link className="account" to="/login">
+                  <Link className="login" to="/login">
                   Login
                   </Link>
                 </span>

@@ -32,9 +32,9 @@
 
     
     div {
-        padding-top: 40px;
+        
         display: flex;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
 
         .btn1 {
             background-color: white;
@@ -45,6 +45,7 @@
             font-family: Lucida;
             font-weight: 600;
             font-size: 16px;
+            margin-top: 20px;
 
             img {
                 padding-right: 10px;
@@ -58,13 +59,24 @@
         .btn2 {
             @extend .btn1;
             margin-right: 0px;
+            margin-top: 20px;
         }
 
+    }
+    h5{
+        font-family: Lucida Calligraphy;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        color: #525252;
+        text-align: center; 
+        padding-top: 20px; 
     }
    
 
     Form {
 
+        padding-bottom: 30px;
         .group {
 
 
@@ -76,11 +88,25 @@
                 background-color: transparent;
                 border-bottom: 2px solid black;
                 border-radius: 0px;
-                margin-bottom: 40px;
+                
             }
 
 
+            .form-check{
+                .form-check-input{
+                  border-bottom: 1px solid #000000;
+                }
+                .form-check-label{
+    
+                    font-family:  Lucida;
+                    font-size: 12px;
+                    color: #A1A1A1;
+                    font-weight: 600;
+                    padding-left: 10px;
+                }
+            }
         }
+        
 
         .submitbtn {
             width: 100%;
@@ -102,28 +128,20 @@
         }
 
     }
-
-    .forget {
-        color: #FF9B21;
-        font-style: italic;
-        font-family: lucida;
+    .account{
+        font-family: Lucida;
         font-size: 14px;
-
-
-    }
-    .forget+p{
-        text-align: center;
-        padding-top: 50px;
-        padding-bottom: 100px;
         color: #A1A1A1;
-        font-family: lucida;
-        font-weight: 600;
-        font-size: 14px;
+        padding-bottom: 25px;
         span{
-            .account{
-                color: #FF9B21;  
+            .login{
 
+                color:#FF9B21;
+                padding-left: 5px;
             }
         }
     }
+
+    
+   
 }

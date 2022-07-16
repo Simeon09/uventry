@@ -37,11 +37,10 @@
 }
 
 .form div {
-  padding-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .form div .btn1, .form div .btn2 {
@@ -53,6 +52,7 @@
   font-family: Lucida;
   font-weight: 600;
   font-size: 16px;
+  margin-top: 20px;
 }
 
 .form div .btn1 img, .form div .btn2 img {
@@ -65,6 +65,21 @@
 
 .form div .btn2 {
   margin-right: 0px;
+  margin-top: 20px;
+}
+
+.form h5 {
+  font-family: Lucida Calligraphy;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: #525252;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.form Form {
+  padding-bottom: 30px;
 }
 
 .form Form .group .input {
@@ -74,7 +89,18 @@
   background-color: transparent;
   border-bottom: 2px solid black;
   border-radius: 0px;
-  margin-bottom: 40px;
+}
+
+.form Form .group .form-check .form-check-input {
+  border-bottom: 1px solid #000000;
+}
+
+.form Form .group .form-check .form-check-label {
+  font-family: Lucida;
+  font-size: 12px;
+  color: #A1A1A1;
+  font-weight: 600;
+  padding-left: 10px;
 }
 
 .form Form .submitbtn {
@@ -94,24 +120,15 @@
   color: #FF9B21;
 }
 
-.form .forget {
-  color: #FF9B21;
-  font-style: italic;
-  font-family: lucida;
+.form .account {
+  font-family: Lucida;
   font-size: 14px;
-}
-
-.form .forget + p {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 100px;
   color: #A1A1A1;
-  font-family: lucida;
-  font-weight: 600;
-  font-size: 14px;
+  padding-bottom: 25px;
 }
 
-.form .forget + p span .account {
+.form .account span .login {
   color: #FF9B21;
+  padding-left: 5px;
 }
 /*# sourceMappingURL=create.css.map */
