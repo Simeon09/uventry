@@ -3,6 +3,18 @@
   background-image: linear-gradient(to right, white 50%, #f9f9f9 50%);
 }
 
+.img-fluid {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .img-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .formSide {
   background-color: #f9f9f9;
   border-radius: 20px;

@@ -21,10 +21,10 @@ const Login = () => {
           <Container >
             <Navother className="login"/>
             <Row >
-              <Col md={6}>
+              <Col lg={6}>
                 <img src={office} className="img-fluid" alt="land" />
               </Col>
-              <Col md={6} className='formSide'>
+              <Col lg={6}  className='formSide'>
                 <h6>Welcome back! <span><img src={Emoji} alt='emoji'/></span> </h6>
                 <h5>How may we update your Uventory today?</h5>
                 <div >
