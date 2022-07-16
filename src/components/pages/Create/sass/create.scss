@@ -9,7 +9,7 @@
     }
 }
 
-.formSide {
+.form {
     background-color: #f9f9f9;
     border-radius: 20px;
     margin-top: -65px;
@@ -20,24 +20,18 @@
         padding-top: 70px;
         font-family: Lucida Calligraphy;
         font-style: italic;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 20px;
         color: #525252;
-        ;
+        
 
         span {
             padding-left: 10px;
         }
     }
 
-    h5 {
-        font-family: Lucida;
-        font-weight: 600;
-        color: #525252;
-        font-size: 23px;
-    }
-
-    h5+div {
+    
+    div {
         padding-top: 40px;
         display: flex;
         padding-bottom: 40px;

@@ -5,6 +5,7 @@ import './components/assests/lucida-bright/Lucida_Bright_Italic.ttf';
 import './components/assests/lucida-bright/Lucida_Bright_Regular.ttf';
 import './components/assests/lucida-bright/Lucida_Bright.ttf';
 import Login from './components/pages/Login/Login'
+import Create from'./components/pages/Create/Create'
 import {
   BrowserRouter,
   Routes,
@@ -20,6 +21,7 @@ function App() {
 <Route path='/' element={ <App/>}/>
 <Route index element={< Navbar/>} />
 <Route path='/Login' element={< Login/>} />
+<Route path='/Create' element={< Create/>} />
 </Routes>
 </BrowserRouter>
       

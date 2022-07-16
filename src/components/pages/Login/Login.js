@@ -55,7 +55,7 @@ const Login = () => {
                   </Button>
                 </Form>
                 <Link to='' className="forget">Forget Password?</Link>
-                <p>Not Registered?<span><Link className="account" to=''>Create an Account</Link></span></p>
+                <p>Not Registered?<span><Link className="account" to='/Create'>Create an Account</Link></span></p>
               </Col>
             </Row>
           </Container>

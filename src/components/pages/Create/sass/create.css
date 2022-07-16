@@ -15,7 +15,7 @@
   }
 }
 
-.formSide {
+.form {
   background-color: #f9f9f9;
   border-radius: 20px;
   margin-top: -65px;
@@ -23,27 +23,20 @@
   padding-right: 90px;
 }
 
-.formSide h6 {
+.form h6 {
   padding-top: 70px;
   font-family: Lucida Calligraphy;
   font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   color: #525252;
 }
 
-.formSide h6 span {
+.form h6 span {
   padding-left: 10px;
 }
 
-.formSide h5 {
-  font-family: Lucida;
-  font-weight: 600;
-  color: #525252;
-  font-size: 23px;
-}
-
-.formSide h5 + div {
+.form div {
   padding-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,7 +44,7 @@
   padding-bottom: 40px;
 }
 
-.formSide h5 + div .btn1, .formSide h5 + div .btn2 {
+.form div .btn1, .form div .btn2 {
   background-color: white;
   margin-right: 20px;
   border-color: #FFA500;
@@ -62,19 +55,19 @@
   font-size: 16px;
 }
 
-.formSide h5 + div .btn1 img, .formSide h5 + div .btn2 img {
+.form div .btn1 img, .form div .btn2 img {
   padding-right: 10px;
 }
 
-.formSide h5 + div .btn1:hover, .formSide h5 + div .btn2:hover {
+.form div .btn1:hover, .form div .btn2:hover {
   background-color: #FFA500;
 }
 
-.formSide h5 + div .btn2 {
+.form div .btn2 {
   margin-right: 0px;
 }
 
-.formSide Form .group .input {
+.form Form .group .input {
   border-top: none !important;
   border-right: none;
   border-left: none;
@@ -84,7 +77,7 @@
   margin-bottom: 40px;
 }
 
-.formSide Form .submitbtn {
+.form Form .submitbtn {
   width: 100%;
   border-top: none !important;
   border-right: none;
@@ -97,18 +90,18 @@
   margin-bottom: 30px;
 }
 
-.formSide Form .submitbtn:hover {
+.form Form .submitbtn:hover {
   color: #FF9B21;
 }
 
-.formSide .forget {
+.form .forget {
   color: #FF9B21;
   font-style: italic;
   font-family: lucida;
   font-size: 14px;
 }
 
-.formSide .forget + p {
+.form .forget + p {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -118,7 +111,7 @@
   font-size: 14px;
 }
 
-.formSide .forget + p span .account {
+.form .forget + p span .account {
   color: #FF9B21;
 }
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=create.css.map */
