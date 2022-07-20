@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{ useState}from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
@@ -12,14 +12,39 @@ import Emoji from '../../assests/Images/Emoji.png';
 import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import './sass/login.css'
+import { ToastContainer, toast } from "react-toastify";
+
 
 const Login = () => {
+  const [formlogin, setformlogin] = useState(
+    {
+      email:"",
+      password:"",
+
+    }
+  )
+  const handlechange = (e) => {
+    setformlogin({
+      ...formlogin,
+      [e.target.email]: e.target.value,
+    });
+  };
+  const Handlesubmit = (e) => {
+    e.preventDefault();
+    sessionStorage.setItem("userDetails", JSON.stringify({ ...formlogin }));
+    toast("Login successfully",);
+   
+    setTimeout(() => {
+      window.location='/Dashboard'
+    }, 5000);
+  };
   return (
     <>
 
       <div>
           <Container >
             <Navother className="login"/>
+            
             <Row >
               <Col lg={6}>
                 <img src={office} className="img-fluid" alt="land" />
@@ -39,19 +64,23 @@ const Login = () => {
                     Continue with LinkedIn
                   </button>
                 </div>
-                <Form>
+                <Form onSubmit={Handlesubmit} >
+                <ToastContainer />
                   <Form.Group className="mb-3 group" controlId="formBasicEmail">
                     
-                    <Form.Control className="input" type="email" placeholder="Email address" />
+                    <Form.Control className="input" type="email"name="email"
+              id="email" onChange={handlechange}  placeholder="Email address" />
           
                   </Form.Group>
                   <Form.Group className="mb-3 group" controlId="formBasicPassword">
                    
-                    <Form.Control className="input" type="password" placeholder="Password" />
+                    <Form.Control className="input"  type="password" placeholder="Password" />
+                    
                   </Form.Group>
           
                   <Button className="submitbtn"  type="submit">
                     Login
+                    <ToastContainer position="bottom-right" newestOnTop />
                   </Button>
                 </Form>
                 <Link to='' className="forget">Forget Password?</Link>

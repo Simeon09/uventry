@@ -78,9 +78,11 @@ const Login = () => {
                   <Form.Check type="checkbox" label="Creating an account means you’re okay with our Terms of Service, Privacy Policy." />
                 </Form.Group>
 
-                <Button className="submitbtn" type="submit">
-                Register
-                </Button>
+                <Link className="lo" to='/login'>
+                  <Button className="submitbtn" type="submit">
+                  Register
+                  </Button>
+                </Link>
               </Form>
               
               <p className="account">
