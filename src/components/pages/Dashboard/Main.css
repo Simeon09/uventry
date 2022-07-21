@@ -1,0 +1,7 @@
+.main {
+  background-color: red;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+/*# sourceMappingURL=Main.css.map */

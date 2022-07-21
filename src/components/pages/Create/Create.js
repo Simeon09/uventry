@@ -1,14 +1,14 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+
 import Form from "react-bootstrap/Form";
 import Navother from "../../Navbar/Navother";
 import Container from "react-bootstrap/Container";
 import office from "../../assests/Images/office img.svg";
 import google from "../../assests/Images/image 2.svg";
 import linkden from "../../assests/Images/linkden.png";
-import Emoji from "../../assests/Images/Emoji.png";
+
 import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import "./sass/create.css";

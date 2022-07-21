@@ -1,7 +1,7 @@
 import React ,{ useState}from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+
 import Form from "react-bootstrap/Form";
 import Navother from "../../Navbar/Navother";
 import Container from "react-bootstrap/Container";

@@ -1,8 +1,16 @@
 import React from 'react'
+import Sidebar from './Sidebar'
+import Main from './Main'
+import './Dash.css'
+
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className='dashboard'>
+      
+      <Sidebar/>
+      <Main/>
+    </div>
   )
 }
 

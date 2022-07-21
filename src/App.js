@@ -23,7 +23,7 @@ function App() {
 <Route index element={< Navbar/>} />
 <Route path='/Login' element={< Login/>} />
 <Route path='/Create' element={< Create/>} />
-<Route path='/Dashboard' element={< Dashboard/>} />
+<Route path='/*' element={< Dashboard/>} />
 </Routes>
 </BrowserRouter>
       
