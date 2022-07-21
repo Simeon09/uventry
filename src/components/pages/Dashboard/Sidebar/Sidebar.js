@@ -1,9 +1,10 @@
 import React from 'react'
-import './side.css';
+import logo from '../../../assests/Images/uventorylogo.svg';
+import './side.css'
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <div>Sidebar</div>
+        <div> <img src={logo} alt='logo' className='sidebarlogo'/></div>
         <div>Sidebar</div>     
        <div>Sidebar</div>    
         <div>Sidebar</div>

@@ -1,0 +1,11 @@
+.sidebar {
+  background-color: blue;
+  width: 230px;
+  padding-right: 3vw;
+}
+
+.sidebar .sidebarlogo {
+  width: 200px;
+  margin-top: -20px;
+}
+/*# sourceMappingURL=side.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,QAAQ,CAAA;EACJ,gBAAgB,ECFT,IAAI;EDGX,KAAK,EAAE,KAAK;EACZ,aAAa,EAAE,GAAG;CAQrB;;AAXD,AAII,QAJI,CAIJ,YAAY,CAAA;EACR,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,KAAK;CAGpB",
+    "sources": [
+        "side.scss",
+        "_colour.scss"
+    ],
+    "names": [],
+    "file": "side.css"
+}
