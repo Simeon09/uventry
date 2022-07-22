@@ -1,1 +1,85 @@
-/* No CSS *//*# sourceMappingURL=DashNav.css.map */
+input {
+  border: none;
+  background-color: transparent;
+}
+
+.searchbar {
+  background: white;
+  border-radius: 20px;
+  background: #E6E9F1;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.searchbar:focus-within {
+  border: 2px solid #E6E9F1;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+input:active {
+  border: 2px solid white !important;
+}
+
+.dashnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashnav .Sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-right: 2vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dashnav .Sidenav span {
+  position: relative;
+}
+
+.dashnav .Sidenav span .icondashnav {
+  color: #C8D1E2;
+}
+
+.dashnav .Sidenav .count {
+  position: absolute;
+  top: -1px;
+  background: #FF6363;
+  color: white;
+  width: 13px;
+  text-align: center;
+  border-radius: 400%;
+  font-size: 10px;
+  right: -1px;
+}
+
+.dashnav .Sidenav .profileinfo {
+  font-family: Lucida;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+}
+
+.dashnav .Sidenav .profileinfo h5 {
+  font-size: 16px;
+}
+
+.dashnav .Sidenav .profileinfo p {
+  font-size: 14px;
+}
+/*# sourceMappingURL=DashNav.css.map */
