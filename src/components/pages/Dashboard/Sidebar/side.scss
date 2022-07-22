@@ -1,13 +1,41 @@
 @import 'colour';
+@import 'varaibles';
+
 .sidebar{
-    background-color: $colourone;
+    background-color: white;
     width: 230px;
     padding-left: 2vw;
-    padding-right: 2vw;
+    height: 100%;
+    position: fixed;
+    
+    overflow: auto ;
+    
     .sidebarlogo{
         width: 200px;
-        margin-top: -20px;
+        margin-top: -30px;
+        margin-bottom: -30px;
     
+        
+    }
+    .links{
+        display: flex;
+    
+        text-decoration: none;
+        p{
+        font-style: italic;
+        font-family: $fontfamily;
+        font-weight: 400;
+        padding-left: 10px;
+        font-size: 24px;
+        
+         }
+         .icon{
+            align-self: center;
+            color: $colouricon;
+            font-size: 23px;
+            
+         }
+        
         
     }
     

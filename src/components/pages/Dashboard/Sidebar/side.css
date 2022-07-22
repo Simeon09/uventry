@@ -1,12 +1,38 @@
 .sidebar {
-  background-color: blue;
+  background-color: white;
   width: 230px;
   padding-left: 2vw;
-  padding-right: 2vw;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
 }
 
 .sidebar .sidebarlogo {
   width: 200px;
-  margin-top: -20px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.sidebar .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.sidebar .links p {
+  font-style: italic;
+  font-family: Lucida;
+  font-weight: 400;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.sidebar .links .icon {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #C8D1E2;
+  font-size: 23px;
 }
 /*# sourceMappingURL=side.css.map */
