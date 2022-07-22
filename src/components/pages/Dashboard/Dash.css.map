@@ -2,9 +2,7 @@
     "version": 3,
     "mappings": "AACA,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,IAAI;CAEhB",
     "sources": [
-        "Dash.scss",
-        "_colour.scss",
-        "_varaibles.scss"
+        "Dash.scss"
     ],
     "names": [],
     "file": "Dash.css"

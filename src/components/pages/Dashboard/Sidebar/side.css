@@ -1,7 +1,8 @@
 .sidebar {
   background-color: blue;
   width: 230px;
-  padding-right: 3vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .sidebar .sidebarlogo {
