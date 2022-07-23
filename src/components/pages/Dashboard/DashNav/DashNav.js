@@ -6,6 +6,7 @@ import Avatar from '../../../assests/Images/avatar.svg'
 const DashNav = () => {
   return (
     <div className='dashnav'>
+      <button>click</button>
         <div className='searchbar'> <FiSearch/><input placeholder='search...' type='text' name='search'/></div>
         <div className='Sidenav'>
        <span><  IoNotificationsOutline className='icondashnav'/> <p className='count'>2</p></span>

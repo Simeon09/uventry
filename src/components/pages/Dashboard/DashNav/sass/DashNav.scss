@@ -1,11 +1,22 @@
 input{
     border: none;
     background-color: transparent;
+    @media screen and (max-width:700px){
+        width: 200px;
+    }
+    @media screen and (max-width:647px){
+        width: 180px;
+    }
     @media screen and (max-width:630px){
         width: 150px;
     }
     @media screen and (max-width:538px){
         width: 100px;
+    }
+}
+button{
+    @media screen and (min-width:830px){
+        display: none;
     }
 }
 .searchbar{
@@ -18,10 +29,9 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-    @media screen and (max-width:830px){
-        display: flex;
+    display: flex;
     align-items: center;
-    }
+    
     
 
     
