@@ -3,6 +3,18 @@ input {
   background-color: transparent;
 }
 
+@media screen and (max-width: 630px) {
+  input {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  input {
+    width: 100px;
+  }
+}
+
 .searchbar {
   background: white;
   border-radius: 20px;
@@ -11,6 +23,17 @@ input {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
+}
+
+@media screen and (max-width: 830px) {
+  .searchbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .searchbar:focus-within {
@@ -35,6 +58,17 @@ input:active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 2vw;
+}
+
+@media screen and (max-width: 500px) {
+  .dashnav {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .dashnav .Sidenav {

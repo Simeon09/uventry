@@ -1,7 +1,12 @@
 input{
     border: none;
     background-color: transparent;
-    
+    @media screen and (max-width:630px){
+        width: 150px;
+    }
+    @media screen and (max-width:538px){
+        width: 100px;
+    }
 }
 .searchbar{
     background: white;
@@ -13,7 +18,10 @@ input{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
-
+    @media screen and (max-width:830px){
+        display: flex;
+    align-items: center;
+    }
     
 
     
@@ -32,7 +40,11 @@ input:focus{
     display: flex;
     justify-content: space-between;
      align-items: center;
-    
+     padding-right: 2vw;
+     @media screen and (max-width:500px){
+        display: grid;
+        justify-content: center;
+    }
     .Sidenav{
         display: flex;
         gap: 20px;

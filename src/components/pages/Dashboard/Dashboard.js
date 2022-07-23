@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className='dashboard'>
       
-      <Sidebar/>
+      <Sidebar className='sidebar'/>
       <Main/>
     </div>
   )
