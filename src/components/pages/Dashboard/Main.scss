@@ -1,6 +1,9 @@
 .main{
     
     flex: 2;
-    padding-left: 40px;
+    @media screen  and (min-width:830px){
+        padding-left: 40px;
+        
+    }
    
 }

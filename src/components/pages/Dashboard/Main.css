@@ -2,6 +2,11 @@
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  padding-left: 40px;
+}
+
+@media screen and (min-width: 830px) {
+  .main {
+    padding-left: 40px;
+  }
 }
 /*# sourceMappingURL=Main.css.map */

@@ -21,6 +21,12 @@ input {
   }
 }
 
+@media screen and (max-width: 593px) {
+  input {
+    width: 120px;
+  }
+}
+
 @media screen and (max-width: 538px) {
   input {
     width: 100px;
@@ -61,7 +67,21 @@ input:active {
   border: 2px solid white !important;
 }
 
-.dashnav {
+@media screen and (max-width: 829px) {
+  .dashboardnav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.dashboardnav .dashnav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,7 +95,7 @@ input:active {
 }
 
 @media screen and (max-width: 500px) {
-  .dashnav {
+  .dashboardnav .dashnav {
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
@@ -84,7 +104,7 @@ input:active {
   }
 }
 
-.dashnav .Sidenav {
+.dashboardnav .dashnav .Sidenav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,15 +115,15 @@ input:active {
           align-items: center;
 }
 
-.dashnav .Sidenav span {
+.dashboardnav .dashnav .Sidenav span {
   position: relative;
 }
 
-.dashnav .Sidenav span .icondashnav {
+.dashboardnav .dashnav .Sidenav span .icondashnav {
   color: #C8D1E2;
 }
 
-.dashnav .Sidenav .count {
+.dashboardnav .dashnav .Sidenav .count {
   position: absolute;
   top: -1px;
   background: #FF6363;
@@ -115,18 +135,31 @@ input:active {
   right: -1px;
 }
 
-.dashnav .Sidenav .profileinfo {
+.dashboardnav .dashnav .Sidenav .profileinfo {
   font-family: Lucida;
   color: black;
   font-weight: 400;
   text-align: center;
 }
 
-.dashnav .Sidenav .profileinfo h5 {
+.dashboardnav .dashnav .Sidenav .profileinfo h5 {
   font-size: 16px;
 }
 
-.dashnav .Sidenav .profileinfo p {
+.dashboardnav .dashnav .Sidenav .profileinfo p {
   font-size: 14px;
+}
+
+.nav-menu {
+  left: -100%;
+  position: absolute;
+  -webkit-transition: 850ms;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0px;
+  -webkit-transition: 350ms;
+  transition: 350ms;
 }
 /*# sourceMappingURL=DashNav.css.map */

@@ -1,98 +1,136 @@
-input{
+input {
     border: none;
     background-color: transparent;
-    @media screen and (max-width:700px){
+
+    @media screen and (max-width:700px) {
         width: 200px;
     }
-    @media screen and (max-width:647px){
+
+    @media screen and (max-width:647px) {
         width: 180px;
     }
-    @media screen and (max-width:630px){
+
+    @media screen and (max-width:630px) {
         width: 150px;
     }
-    @media screen and (max-width:538px){
+
+    @media screen and (max-width:593px) {
+        width: 120px;
+    }
+
+    @media screen and (max-width:538px) {
         width: 100px;
     }
 }
-button{
-    @media screen and (min-width:830px){
+
+button {
+    @media screen and (min-width:830px) {
         display: none;
     }
 }
-.searchbar{
+
+.searchbar {
     background: white;
-    
+
     border-radius: 20px;
     background: #E6E9F1;
-    
+
     padding-right: 60px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
     display: flex;
     align-items: center;
-    
-    
 
-    
+
+
+
 }
 
-.searchbar:focus-within{
-    border:2px solid #E6E9F1;
+.searchbar:focus-within {
+    border: 2px solid #E6E9F1;
 }
-input:focus{
+
+input:focus {
     outline: none !important;
 }
- input:active {
+
+input:active {
     border: 2px solid white !important;
- }
- .dashnav{
-    display: flex;
-    justify-content: space-between;
-     align-items: center;
-     padding-right: 2vw;
-     @media screen and (max-width:500px){
-        display: grid;
-        justify-content: center;
-    }
-    .Sidenav{
-        display: flex;
-        gap: 20px;
-        padding-right: 2vw;
-        align-items: center;
+}
+
+.dashboardnav {
+    @media screen and (max-width:829px){
         
-        span{
-            position: relative;
-            .icondashnav{
-                color: #C8D1E2;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .dashnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 2vw;
+
+        @media screen and (max-width:500px) {
+            display: grid;
+            justify-content: center;
+        }
+
+        .Sidenav {
+            display: flex;
+            gap: 20px;
+            padding-right: 2vw;
+            align-items: center;
+
+            span {
+                position: relative;
+
+                .icondashnav {
+                    color: #C8D1E2;
+
+                }
 
             }
 
-        }
-        .count{
-            position: absolute;
-            top: -1px;
-            background: #FF6363;
-            color: white;
-            width: 13px;
-            text-align: center;
-            border-radius: 400%;
-            font-size: 10px;
-            right: -1px;
-        }
-        .profileinfo{
-            font-family: Lucida;
-            color: black;
-            font-weight: 400;
-            text-align: center;
-            h5{
-                font-size: 16px;
+            .count {
+                position: absolute;
+                top: -1px;
+                background: #FF6363;
+                color: white;
+                width: 13px;
+                text-align: center;
+                border-radius: 400%;
+                font-size: 10px;
+                right: -1px;
             }
-            p{
-               font-size: 14px; 
+
+            .profileinfo {
+                font-family: Lucida;
+                color: black;
+                font-weight: 400;
+                text-align: center;
+
+                h5 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
             }
         }
     }
- }
 
- 
+}
+.nav-menu{
+    left: -100%;
+    position: absolute;
+    transition: 850ms;
+}
+.nav-menu.active{
+    left: 0px;
+    transition: 350ms;
+    
+}

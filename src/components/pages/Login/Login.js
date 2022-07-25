@@ -47,7 +47,7 @@ const Login = () => {
             
             <Row >
               <Col lg={6}>
-                <img src={office} className="img-fluid" alt="land" />
+                <img src={office} className="img-fluid picture" alt="land" />
               </Col>
               <Col lg={6}  className='formSide'>
                 <h6>Welcome back! <span><img src={Emoji} alt='emoji'/></span> </h6>

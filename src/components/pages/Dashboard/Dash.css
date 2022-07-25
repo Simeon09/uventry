@@ -4,10 +4,4 @@
   display: flex;
   background-color: #F5F7F9;
 }
-
-@media screen and (max-width: 830px) {
-  .dashboard .sidebar {
-    display: none;
-  }
-}
 /*# sourceMappingURL=Dash.css.map */

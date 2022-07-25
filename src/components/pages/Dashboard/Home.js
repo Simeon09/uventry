@@ -3,8 +3,11 @@ import DashNav from './DashNav/DashNav'
 import './home.css'
 const Home = () => {
   return (
-    <div className='home'>
+    <div className='hom'>
       <DashNav/>
+      Homedhaskj
+      nnhdj
+      nccks
     </div>
   )
 }

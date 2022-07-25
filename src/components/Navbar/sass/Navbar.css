@@ -44,7 +44,7 @@
   padding-bottom: 80px;
 }
 
-.sectionOne button {
+.sectionOne .btn {
   background: #FFA500;
   color: white;
   font-family: lucida;
@@ -57,7 +57,7 @@
   border: #FFA500;
 }
 
-.sectionOne button:hover {
+.sectionOne .btn:hover {
   background-color: green;
 }
 

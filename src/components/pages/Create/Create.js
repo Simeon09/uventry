@@ -21,7 +21,7 @@ const Login = () => {
           <Navother className="login" />
           <Row>
             <Col lg={6}>
-              <img src={office} className="img-fluid" alt="land" />
+              <img src={office} className="img-fluid picture" alt="land" />
             </Col>
             <Col lg={6} className="form">
               <h6>Create Account </h6>

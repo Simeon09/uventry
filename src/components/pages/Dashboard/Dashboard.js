@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className='dashboard'>
       
-      <Sidebar className='sidebar'/>
+      {/* <Sidebar className='sidebar'/> */}
       <Main/>
     </div>
   )

@@ -27,8 +27,8 @@ function NavScrollExample() {
             <Navbar.Collapse id="navbarScroll">
               <Nav
                 className=" ms-auto  d-flex justify-content-between"
-                style={{ maxHeight: '100px' }}
-                navbarScroll
+                // style={{ maxHeight: '100px' }}
+                // navbarScroll
               >
                 <Nav.Link active href="#action1" className='home' >Home</Nav.Link>
         
@@ -59,7 +59,8 @@ function NavScrollExample() {
                     <p>Easy way to store, track every unit of  <br></br>
                         your businesses and update on catalogue</p>
                     
-                    <Link to='/Login'><button>Get started</button></Link>
+                    <Link to='/Login'><button className='btn'>Get started</button></Link>
+                    
                 </Col>
                 <Col lg >
                 <img src={office} className='img-fluid' alt='land' />
