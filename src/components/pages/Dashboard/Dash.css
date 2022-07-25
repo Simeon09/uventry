@@ -4,4 +4,8 @@
   display: flex;
   background-color: #F5F7F9;
 }
+
+.dashboard .Sidebar {
+  display: none;
+}
 /*# sourceMappingURL=Dash.css.map */

@@ -13,10 +13,9 @@ const DashNav = () => {
   const [sidebar, setsidebar] = useState(false)
   const isMobile = useMediaQuery("max-width: 768px)");
   const showsidebar= ()=>{
-    setsidebar( isMobile ? !sidebar : Sidebar)
+    setsidebar( isMobile ? !sidebar : sidebar)
   }
-  const [side, setside] = useState(false)
-
+  
   return (
     <div>
       <div className="dashboardnav">
@@ -50,7 +49,7 @@ const DashNav = () => {
       
       </div>
       <div className={ sidebar ? 'nav-menu-active' : 'nav-menu'  }>
-      <nav >
+      <nav>
             <Sidebar className='side'/> 
           </nav>
       </div>
