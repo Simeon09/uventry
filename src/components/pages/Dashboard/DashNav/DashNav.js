@@ -6,13 +6,17 @@ import Avatar from "../../../assests/Images/avatar.svg";
 import { FaTimes} from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import Sidebar from "../Sidebar/Sidebar";
+import { useMediaQuery } from '@chakra-ui/react'
 
 import { useState } from "react";
 const DashNav = () => {
   const [sidebar, setsidebar] = useState(false)
+  const isMobile = useMediaQuery("max-width: 768px)");
   const showsidebar= ()=>{
-    setsidebar(!sidebar)
+    setsidebar( isMobile ? !sidebar : Sidebar)
   }
+  const [side, setside] = useState(false)
+
   return (
     <div>
       <div className="dashboardnav">
@@ -46,7 +50,7 @@ const DashNav = () => {
       
       </div>
       <div className={ sidebar ? 'nav-menu-active' : 'nav-menu'  }>
-      <nav onClick={showsidebar}   >
+      <nav >
             <Sidebar className='side'/> 
           </nav>
       </div>

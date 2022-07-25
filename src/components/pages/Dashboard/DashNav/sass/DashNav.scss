@@ -128,9 +128,17 @@ input:active {
     left: -100%;
     position: absolute;
     transition: 850ms;
-}
+     @media screen and (min-width:830px) {
+        
+    
+         left: 0px;
+        top: 0px;
+    
+     }
+ }
 .nav-menu.active{
     left: 0px;
     transition: 350ms;
     
 }
+
