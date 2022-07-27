@@ -1,34 +1,40 @@
-.hom{
+.hom {
     height: 1000px;
-    padding-top: 25px; 
-    
+    padding-top: 25px;
+
     font-family: lucida;
     font-weight: 600;
     font-size: 20px;
     padding-right: 3vw;
+
     @media screen and (min-width:830px) {
         margin-left: 200px;
-        
+
     }
-    .content{
+
+    .content {
         padding-top: 20px;
+
         @media screen and (max-width:830px) {
             padding-left: 3vw;
         }
-        .firstSection{
+
+        .firstSection {
             display: flex;
             justify-content: space-between;
-            span:first-child{
+
+            span:first-child {
                 font-family: Lucida;
                 font-weight: 400;
                 font-style: italic;
                 font-size: 20px;
             }
-            span:nth-child(2){
+
+            span:nth-child(2) {
                 display: flex;
                 align-items: center;
                 background: #365A96;
-                padding: 0px  15px;
+                padding: 0px 15px;
                 gap: 10px;
                 font-size: 13px;
                 color: white;
@@ -37,18 +43,154 @@
 
             }
         }
-        .firstSection + div{
+
+        .secondSection {
             display: flex;
-            justify-content: space-evenly;
-            .delivery{
+            justify-content: space-between;
+            padding-right: 4vw;
+            padding-left: 4vw;
+            margin-top: 30px;
+            padding-top: 40px;
+            padding-bottom: 20px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            background-color: white;
+            border-radius: 20px;
+
+            .delivery {
                 display: flex;
-                gap:10px;
-                small{
-                    background-color:#365A96 ;
+                gap: 10px;
+
+                small {
+                    background-color: #365A96;
                     border-radius: 50px;
                     padding: 10px;
                     margin-bottom: 40px;
-                    
+
+                }
+
+                P {
+                    font-size: 18px;
+                    font-style: italic;
+                    font-family: Lucida;
+                    font-weight: 400;
+                    color: #000000;
+
+                    span {
+                        font-style: normal;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+        .thirdSection {
+            margin-top: 20px;
+
+            .mainThird {
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+                background-color: white;
+                width: fit-content;
+                padding-left: 20px;
+
+                .invoice {
+                    display: flex;
+                    gap: 120px;
+                    align-items: center;
+
+                    select {
+                        padding: 2px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        height: 30px;
+                        width: 70px;
+                        border-radius: 15px;
+                        background-color: #FFFFFF;
+                        color: #B8BBC6;
+                        font-family: Lucida;
+                        border: 2px solid #E6E9F1;
+
+                    }
+
+                    p {
+                        font-weight: 600;
+                        font-family: Lucida;
+                        font-size: 18px;
+                        color: #000000;
+                        padding-top: 15px;
+
+                    }
+                }
+
+                .amountChat {
+                    display: flex;
+                    gap: 50px;
+
+                    text {
+                        p {
+                            font-size: 16px;
+                            font-family: Lucida;
+                            font-style: italic;
+                            font-weight: 400;
+
+                            span {
+                                font-style: normal;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    span {
+                        img {
+
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+
+            .salesChat {
+                display: flex;
+                margin-top: 25px;
+                background-color: white;
+                width: 300px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 20px;
+
+                span:first-child {
+                    background-color:  #F9F9F9;
+                    width: 150px;
+                    border-radius: 20px;
+                    padding-left: 20px;
+                    font-size: 18px;
+                    font-weight: 400px;
+                    font-style: italic;
+                    padding-top: 10px;
+                    p{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-family: lucida;
+                        sup{
+                            color: #008000;
+
+                        }
+                    }
+                }
+
+                span:nth-child(2) {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 15px;
+                    .icon{
+                        color: #365A96;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-weight: 400px;
+                        font-style: italic;
+                        padding-top: 10px;  
+                        color: #000000;
+                    }
                 }
             }
         }

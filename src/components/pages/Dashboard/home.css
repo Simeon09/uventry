@@ -47,7 +47,7 @@
       -ms-flex-align: center;
           align-items: center;
   background: #365A96;
-  padding: 0px  15px;
+  padding: 0px 15px;
   gap: 10px;
   font-size: 13px;
   color: white;
@@ -55,26 +55,172 @@
   border: none;
 }
 
-.hom .content .firstSection + div {
+.hom .content .secondSection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  border-radius: 20px;
 }
 
-.hom .content .firstSection + div .delivery {
+.hom .content .secondSection .delivery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
 
-.hom .content .firstSection + div .delivery small {
+.hom .content .secondSection .delivery small {
   background-color: #365A96;
   border-radius: 50px;
   padding: 10px;
   margin-bottom: 40px;
+}
+
+.hom .content .secondSection .delivery P {
+  font-size: 18px;
+  font-style: italic;
+  font-family: Lucida;
+  font-weight: 400;
+  color: #000000;
+}
+
+.hom .content .secondSection .delivery P span {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.hom .content .thirdSection {
+  margin-top: 20px;
+}
+
+.hom .content .thirdSection .mainThird {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 20px;
+}
+
+.hom .content .thirdSection .mainThird .invoice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hom .content .thirdSection .mainThird .invoice select {
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 30px;
+  width: 70px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: #B8BBC6;
+  font-family: Lucida;
+  border: 2px solid #E6E9F1;
+}
+
+.hom .content .thirdSection .mainThird .invoice p {
+  font-weight: 600;
+  font-family: Lucida;
+  font-size: 18px;
+  color: #000000;
+  padding-top: 15px;
+}
+
+.hom .content .thirdSection .mainThird .amountChat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.hom .content .thirdSection .mainThird .amountChat text p {
+  font-size: 16px;
+  font-family: Lucida;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hom .content .thirdSection .mainThird .amountChat text p span {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hom .content .thirdSection .mainThird .amountChat span img {
+  width: 80%;
+}
+
+.hom .content .thirdSection .salesChat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+  background-color: white;
+  width: 300px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.hom .content .thirdSection .salesChat span:first-child {
+  background-color: #F9F9F9;
+  width: 150px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 400px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.hom .content .thirdSection .salesChat span:first-child p {
+  font-style: normal;
+  font-weight: 600;
+  font-family: lucida;
+}
+
+.hom .content .thirdSection .salesChat span:first-child p sup {
+  color: #008000;
+}
+
+.hom .content .thirdSection .salesChat span:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+}
+
+.hom .content .thirdSection .salesChat span:nth-child(2) .icon {
+  color: #365A96;
+}
+
+.hom .content .thirdSection .salesChat span:nth-child(2) p {
+  font-size: 18px;
+  font-weight: 400px;
+  font-style: italic;
+  padding-top: 10px;
+  color: #000000;
 }
 /*# sourceMappingURL=home.css.map */
