@@ -47,11 +47,34 @@
       -ms-flex-align: center;
           align-items: center;
   background: #365A96;
-  padding: 4px  15px;
+  padding: 0px  15px;
   gap: 10px;
   font-size: 13px;
   color: white;
   border-radius: 15px;
   border: none;
+}
+
+.hom .content .firstSection + div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.hom .content .firstSection + div .delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.hom .content .firstSection + div .delivery small {
+  background-color: #365A96;
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 /*# sourceMappingURL=home.css.map */
