@@ -6,9 +6,66 @@ import history from "../../assests/Images/History.svg";
 import product from "../../assests/Images/New Product.svg";
 import shipped from "../../assests/Images/Shipped.svg";
 import groupE from "../../assests/Images/groupE.svg";
-import { HiShoppingCart} from "react-icons/hi"
+import { HiShoppingCart } from "react-icons/hi";
+import PureComponent from "react";
+import {
+  BarChart,
+  Bar,
+  Cell,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 
 const Home = () => {
+  const data = [
+    {
+      name: "Page A",
+      uv: 4000,
+      pv: 2400,
+      amt: 2400,
+    },
+    {
+      name: "Page B",
+      uv: 3000,
+      pv: 1398,
+      amt: 2210,
+    },
+    {
+      name: "Page C",
+      uv: 2000,
+      pv: 9800,
+      amt: 2290,
+    },
+    {
+      name: "Page D",
+      uv: 2780,
+      pv: 3908,
+      amt: 2000,
+    },
+    {
+      name: "Page E",
+      uv: 1890,
+      pv: 4800,
+      amt: 2181,
+    },
+    {
+      name: "Page F",
+      uv: 2390,
+      pv: 3800,
+      amt: 2500,
+    },
+    {
+      name: "Page G",
+      uv: 3490,
+      pv: 4300,
+      amt: 2100,
+    },
+  ];
+
   return (
     <div className="hom">
       <DashNav />
@@ -54,41 +111,63 @@ const Home = () => {
           </span>
         </div>
         <div className="thirdSection">
-          <div className="mainThird">
-            <div className=" invoice">
-              
+          <div>
+            <div className="mainThird">
+              <div className=" invoice">
                 <p>Invoice</p>
-              
-                              <select value={"year"}>
+                <select value={"year"}>
                   <option value={"year"}>year</option>
                   <option value={"2000"}>2000</option>
                   <option value={"2000"}>2001</option>
                   <option value={"2000"}>2002</option>
                   <option value={"2000"}>2003</option>
                 </select>
-              
+              </div>
+              <div className="amountChat">
+                <text>
+                  {" "}
+                  <p>
+                    Overdue Invoice <br />
+                    <span>20</span>
+                  </p>
+                  <p>
+                    Overdue amount <br />
+                    <span>$123,099</span>
+                  </p>
+                </text>
+                <span>
+                  <img src={groupE} alt="elispse" />
+                </span>
+              </div>
             </div>
-            <div className='amountChat'>
-              <text>
-                {" "}
-                <p>
-                  Overdue Invoice <br />
-                  <span>20</span>
-                </p>
-                <p>
-                  Overdue amount <br />
-                  <span>$123,099</span>
-                </p>
-              </text>
+            <div className="salesChat">
               <span>
-                <img src={groupE} alt="elispse" />
+                <small>
+                  Sales order <br />
+                  <p>
+                    20<sup>+5</sup>
+                  </p>
+                </small>
+              </span>
+              <span>
+                <HiShoppingCart className="icon" />
+                <p>view order</p>
               </span>
             </div>
           </div>
-          <div className="salesChat"><span><small>Sales order <br/><p>20<sup>+5</sup></p></small></span>
-          <span><HiShoppingCart className="icon" /><p>view order</p></span>
+          <div className="chart">
+            
+              <BarChart width={730} height={250} data={data}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                <Bar dataKey="pv" fill="#8884d8" />
+                <Bar dataKey="uv" fill="#82ca9d" />
+              </BarChart>
+            
           </div>
-          <div></div>
         </div>
       </div>
     </div>

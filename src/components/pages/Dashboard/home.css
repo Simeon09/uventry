@@ -102,6 +102,25 @@
 
 .hom .content .thirdSection {
   margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hom .content .thirdSection .chart {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .hom .content .thirdSection .mainThird {
@@ -217,6 +236,7 @@
 }
 
 .hom .content .thirdSection .salesChat span:nth-child(2) p {
+  padding-left: 5px;
   font-size: 18px;
   font-weight: 400px;
   font-style: italic;
