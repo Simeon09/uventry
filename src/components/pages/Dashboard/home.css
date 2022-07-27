@@ -1,15 +1,57 @@
 .hom {
   height: 1000px;
   padding-top: 25px;
-  color: #FFA500 !important;
   font-family: lucida;
   font-weight: 600;
   font-size: 20px;
+  padding-right: 3vw;
 }
 
 @media screen and (min-width: 830px) {
   .hom {
     margin-left: 200px;
   }
+}
+
+.hom .content {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 830px) {
+  .hom .content {
+    padding-left: 3vw;
+  }
+}
+
+.hom .content .firstSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hom .content .firstSection span:first-child {
+  font-family: Lucida;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.hom .content .firstSection span:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #365A96;
+  padding: 4px  15px;
+  gap: 10px;
+  font-size: 13px;
+  color: white;
+  border-radius: 15px;
+  border: none;
 }
 /*# sourceMappingURL=home.css.map */

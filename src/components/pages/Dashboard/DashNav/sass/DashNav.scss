@@ -34,6 +34,7 @@ button {
 
     border-radius: 20px;
     background: #E6E9F1;
+    color: #E6E9F1;
 
     padding-right: 60px;
     padding-top: 5px;
@@ -71,7 +72,7 @@ input:active {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-right: 2vw;
+        // padding-right: 2vw;
 
         @media screen and (max-width:500px) {
             display: grid;
@@ -81,7 +82,7 @@ input:active {
         .Sidenav {
             display: flex;
             gap: 20px;
-            padding-right: 2vw;
+            
             align-items: center;
 
             span {

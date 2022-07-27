@@ -43,4 +43,16 @@
   color: #C8D1E2;
   font-size: 23px;
 }
+
+.sidebar .links .icon:hover {
+  color: #FF961F;
+}
+
+.sidebar .links:hover {
+  color: #FF961F;
+}
+
+.sidebar .links:active {
+  color: #FF961F;
+}
 /*# sourceMappingURL=side.css.map */

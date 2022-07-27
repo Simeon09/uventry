@@ -7,9 +7,11 @@ import { HiHome,HiUsers,HiTag,HiShoppingCart,HiCreditCard ,HiClipboardList,HiCal
 
 import {Link } from 'react-router-dom';
 
+
 const Sidebar = () => {
+ 
   return (
-    <div className='sidebar'>
+    <div className='sidebar '>
         <div> <img src={logo} alt='logo' className='sidebarlogo'/></div>
         <Link className='links' to='/Home'><span><HiHome className='icon'/></span> <p> Dashboard </p></Link>
         <Link className='links' to='/Buisness'><span><HiUsers className='icon'/></span> <p> Business</p></Link>

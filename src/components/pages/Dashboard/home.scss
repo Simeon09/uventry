@@ -1,12 +1,41 @@
 .hom{
     height: 1000px;
     padding-top: 25px; 
-    color: #FFA500 !important;
+    
     font-family: lucida;
     font-weight: 600;
     font-size: 20px;
+    padding-right: 3vw;
     @media screen and (min-width:830px) {
         margin-left: 200px;
         
+    }
+    .content{
+        padding-top: 20px;
+        @media screen and (max-width:830px) {
+            padding-left: 3vw;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-between;
+            span:first-child{
+                font-family: Lucida;
+                font-weight: 400;
+                font-style: italic;
+                font-size: 20px;
+            }
+            span:nth-child(2){
+                display: flex;
+                align-items: center;
+                background: #365A96;
+                padding: 4px  15px;
+                gap: 10px;
+                font-size: 13px;
+                color: white;
+                border-radius: 15px;
+                border: none;
+
+            }
+        }
     }
 }

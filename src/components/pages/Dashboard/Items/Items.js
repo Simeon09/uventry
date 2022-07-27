@@ -1,6 +1,6 @@
 import React from 'react'
 import DashNav from '../DashNav/DashNav'
-
+import './sass/items.css'
 const Items = () => {
   return (
     <div className='Items'>

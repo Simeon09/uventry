@@ -1,8 +1,12 @@
 import React from 'react'
-
+import DashNav from '../DashNav/DashNav'
+import './sass/settings.css'
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div className='settings'>
+      <DashNav/>
+      <div>Settings</div>
+    </div>
   )
 }
 

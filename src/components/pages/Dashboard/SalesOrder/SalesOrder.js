@@ -1,8 +1,12 @@
 import React from 'react'
-
+import DashNav from '../DashNav/DashNav'
+import './sass/sales.css'
 const SalesOrder = () => {
   return (
-    <div>SalesOrder</div>
+    <div className='Sales'>
+      <DashNav/>
+      <div>SalesOrder</div>
+    </div>
   )
 }
 

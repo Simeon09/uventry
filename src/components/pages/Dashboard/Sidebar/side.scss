@@ -40,9 +40,20 @@
             align-self: center;
             color: $colouricon;
             font-size: 23px;
+            &:hover {
+                color: #FF961F;
+                
+            }
             
          }
-        
+        &:hover {
+            color: #FF961F;
+            
+        }
+        &:active{
+            color: #FF961F; 
+        }
+       
         
     }
     
