@@ -1,26 +1,28 @@
-import React  from "react";
+import React from "react";
 import "./sass/DashNav.css";
 import { FiSearch } from "react-icons/fi";
 import { IoMailOutline, IoNotificationsOutline } from "react-icons/io5";
 import Avatar from "../../../assests/Images/avatar.svg";
-import { FaTimes} from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import Sidebar from "../Sidebar/Sidebar";
-import { useMediaQuery } from '@chakra-ui/react'
+import { useMediaQuery } from "@chakra-ui/react";
 
 import { useState } from "react";
 const DashNav = () => {
-  const [sidebar, setsidebar] = useState(false)
+  const [sidebar, setsidebar] = useState(false);
   const isMobile = useMediaQuery("max-width: 768px)");
-  const showsidebar= ()=>{
-    setsidebar( isMobile ? !sidebar : sidebar)
-  }
-  
+  const showsidebar = () => {
+    setsidebar(!sidebar);
+  };
+
   return (
     <div>
       <div className="dashboardnav">
         <div>
-          <button onClick={showsidebar}>{ sidebar ? <FaTimes/>  : <FaBars/>}</button>
+          <button onClick={showsidebar}>
+            {sidebar ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
         <div className="dashnav">
           <div className="searchbar">
@@ -46,13 +48,18 @@ const DashNav = () => {
             </span>
           </div>
         </div>
+      </div>
+      <div className={sidebar ? "nav-menu-active" : "nav-menu"}>
+        <nav onClick={showsidebar}>
+          <Sidebar />
+        </nav>
+      </div>
+      <div className='deskshow'>
+        
+          <Sidebar />
+        
+      </div>
       
-      </div>
-      <div className={ sidebar ? 'nav-menu-active' : 'nav-menu'  }>
-      <nav>
-            <Sidebar className='side'/> 
-          </nav>
-      </div>
     </div>
   );
 };

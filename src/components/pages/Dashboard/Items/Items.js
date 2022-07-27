@@ -1,8 +1,12 @@
 import React from 'react'
+import DashNav from '../DashNav/DashNav'
 
 const Items = () => {
   return (
-    <div>Items</div>
+    <div className='Items'>
+      <DashNav/>
+      <div>Items</div>
+    </div>
   )
 }
 

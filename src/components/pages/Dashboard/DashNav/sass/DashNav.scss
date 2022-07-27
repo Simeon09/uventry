@@ -129,16 +129,35 @@ input:active {
     position: absolute;
     transition: 850ms;
      @media screen and (min-width:830px) {
-        
+        // position: fixed;
     
-         left: 0px;
-        top: 0px;
+        //  left: 0px;
+        // top: 0px;
+        display: none;
     
      }
  }
 .nav-menu.active{
     left: 0px;
     transition: 350ms;
+    @media screen and (min-width:830px) {
+        // position: fixed;
     
+        //  left: 0px;
+        // top: 0px;
+        display: none;
+    
+     }
+    
+}
+.deskshow{
+    display: none;
+    @media screen and (min-width:830px) {
+        // position: fixed;
+        transition: 850ms;
+        
+        display: contents;
+    
+     }
 }
 

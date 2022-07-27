@@ -159,8 +159,7 @@ input:active {
 
 @media screen and (min-width: 830px) {
   .nav-menu {
-    left: 0px;
-    top: 0px;
+    display: none;
   }
 }
 
@@ -168,5 +167,23 @@ input:active {
   left: 0px;
   -webkit-transition: 350ms;
   transition: 350ms;
+}
+
+@media screen and (min-width: 830px) {
+  .nav-menu.active {
+    display: none;
+  }
+}
+
+.deskshow {
+  display: none;
+}
+
+@media screen and (min-width: 830px) {
+  .deskshow {
+    -webkit-transition: 850ms;
+    transition: 850ms;
+    display: contents;
+  }
 }
 /*# sourceMappingURL=DashNav.css.map */

@@ -5,9 +5,7 @@ const Home = () => {
   return (
     <div className='hom'>
       <DashNav/>
-      Homedhaskj
-      nnhdj
-      nccks
+       home page.
     </div>
   )
 }
