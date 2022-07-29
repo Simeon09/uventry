@@ -7,9 +7,9 @@ import product from "../../assests/Images/New Product.svg";
 import shipped from "../../assests/Images/Shipped.svg";
 import groupE from "../../assests/Images/groupE.svg";
 import { HiShoppingCart } from "react-icons/hi";
-import music from '../../assests/Images/music.svg';
-import star from '../../assests/Images/Star (1).svg'
-import stars from '../../assests/Images/Star.svg'
+import music from "../../assests/Images/music.svg";
+import star from "../../assests/Images/Star (1).svg";
+import stars from "../../assests/Images/Star.svg";
 import {
   BarChart,
   Bar,
@@ -25,44 +25,44 @@ import {
 const Home = () => {
   const data = [
     {
-      name: "Page A",
+      name: "JAN",
       uv: 4000,
       pv: 2400,
       amt: 2400,
     },
     {
-      name: "Page B",
+      name: "FEB",
       uv: 3000,
       pv: 1398,
       amt: 2210,
     },
     {
-      name: "Page C",
+      name: "MAR",
       uv: 2000,
       pv: 9800,
       amt: 2290,
     },
     {
-      name: "Page D",
+      name: "APR",
       uv: 2780,
       pv: 3908,
       amt: 2000,
     },
     {
-      name: "Page E",
+      name: "MAY",
       uv: 1890,
       pv: 4800,
       amt: 2181,
     },
     {
-      name: "Page F",
+      name: "JUN",
       uv: 2390,
       pv: 3800,
       amt: 2500,
     },
     {
-      name: "Page G",
-      uv: 3490,
+      name: "JLY",
+      uv: 490,
       pv: 4300,
       amt: 2100,
     },
@@ -158,18 +158,28 @@ const Home = () => {
             </div>
           </div>
           <div className="chart">
+            <div className=" invoice">
+              <p>Total Profit</p>
+              <select value={"year"}>
+                <option value={"year"}>Month</option>
+                <option value={"2000"}>Jan</option>
+                <option value={"2000"}>Feb</option>
+                <option value={"2000"}>Mar</option>
+                <option value={"2000"}>Apr</option>
+              </select>
+            </div>
             <BarChart width={730} height={250} data={data}>
-              <CartesianGrid strokeDasharray="3 3" />
+              {/* <CartesianGrid strokeDasharray="3 3" /> */}
               <XAxis dataKey="name" />
               <YAxis />
               <Tooltip />
               <Legend />
-              <Bar dataKey="pv" fill="#8884d8" />
-              <Bar dataKey="uv" fill="#82ca9d" />
+              <Bar dataKey="pv" fill="#FF961F" />
+              <Bar dataKey="uv" fill="#365A96" />
             </BarChart>
           </div>
         </div>
-        <div  className=" fourthSection">
+        <div className=" fourthSection">
           <div className=" invoice">
             <p>Top products</p>
             <select value={"year"}>
@@ -182,13 +192,26 @@ const Home = () => {
           </div>
           <div className="products">
             <div className="subProducts">
-              <div><img src={music} alt='music'/></div>
-               <div><h5>Jabra</h5>
-               <p> Portable earbuds</p>
-               <span><img src={stars} alt='star'/><img src={stars} alt='star'/><img src={stars} alt='star'/> <img src={stars} alt='star'/> <img src={star} alt='star'/> </span>
-               </div>
+              <div>
+                <img src={music} alt="music" />
+              </div>
+              <div>
+                <h5>Jabra</h5>
+                <p> Portable earbuds</p>
+                <span>
+                  <img src={stars} alt="star" />
+                  <img src={stars} alt="star" />
+                  <img src={stars} alt="star" /> <img src={stars} alt="star" />{" "}
+                  <img src={star} alt="star" />{" "}
+                </span>
+              </div>
             </div>
-            <span>  <p>Quantity <br/> <small>24</small></p></span>
+            <span>
+              {" "}
+              <p>
+                Quantity <br /> <small>24</small>
+              </p>
+            </span>
           </div>
         </div>
       </div>

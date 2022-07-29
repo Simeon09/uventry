@@ -33,6 +33,11 @@ input {
   }
 }
 
+button {
+  border: none;
+  background: #F9F9F9;
+}
+
 @media screen and (min-width: 830px) {
   button {
     display: none;
@@ -43,7 +48,7 @@ input {
   background: white;
   border-radius: 20px;
   background: #E6E9F1;
-  color: #E6E9F1;
+  color: black;
   padding-right: 60px;
   padding-top: 5px;
   padding-bottom: 5px;

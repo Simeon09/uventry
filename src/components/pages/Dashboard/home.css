@@ -1,5 +1,4 @@
 .hom {
-  height: 1000px;
   padding-top: 25px;
   font-family: lucida;
   font-weight: 600;
@@ -73,6 +72,21 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 892px) {
+  .hom .content .secondSection {
+    display: block;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .hom .content .secondSection {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+
 .hom .content .secondSection .delivery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,6 +124,12 @@
           justify-content: space-between;
 }
 
+@media screen and (max-width: 1338px) {
+  .hom .content .thirdSection {
+    display: block;
+  }
+}
+
 .hom .content .thirdSection .chart {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -121,6 +141,49 @@
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media screen and (max-width: 1338px) {
+  .hom .content .thirdSection .chart {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .hom .content .thirdSection .chart {
+    display: none;
+  }
+}
+
+.hom .content .thirdSection .chart .invoice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hom .content .thirdSection .chart .invoice select {
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 30px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: #B8BBC6;
+  font-family: Lucida;
+  border: 2px solid #E6E9F1;
+}
+
+.hom .content .thirdSection .chart .invoice p {
+  font-family: Lucida;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .hom .content .thirdSection .mainThird {
@@ -294,6 +357,12 @@
           justify-content: space-between;
 }
 
+@media screen and (max-width: 511px) {
+  .hom .content .fourthSection .products {
+    display: block;
+  }
+}
+
 .hom .content .fourthSection .products .subProducts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,6 +371,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 417px) {
+  .hom .content .fourthSection .products .subProducts {
+    display: block;
+  }
 }
 
 .hom .content .fourthSection .products .subProducts h5, .hom .content .fourthSection .products .subProducts p {
@@ -326,6 +401,12 @@
   font-weight: 600;
   font-size: 18;
   font-family: lucida;
+}
+
+@media screen and (max-width: 511px) {
+  .hom .content .fourthSection .products .subProducts + span p {
+    padding-top: 20px;
+  }
 }
 
 .hom .content .fourthSection .products .subProducts + span small {
