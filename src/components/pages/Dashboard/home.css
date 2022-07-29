@@ -243,4 +243,94 @@
   padding-top: 10px;
   color: #000000;
 }
+
+.hom .content .fourthSection {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 20px 5px 5px;
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+}
+
+.hom .content .fourthSection .invoice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hom .content .fourthSection .invoice select {
+  margin-top: 5px;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  height: 30px;
+  width: 80px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  color: #B8BBC6;
+  font-family: Lucida;
+  border: 2px solid #E6E9F1;
+}
+
+.hom .content .fourthSection .invoice p {
+  font-weight: 600;
+  font-family: Lucida;
+  font-size: 18px;
+  color: #000000;
+  padding-top: 15px;
+}
+
+.hom .content .fourthSection .products {
+  padding: 0px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hom .content .fourthSection .products .subProducts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hom .content .fourthSection .products .subProducts h5, .hom .content .fourthSection .products .subProducts p {
+  font-weight: 600;
+  font-size: 18;
+  font-family: lucida;
+}
+
+.hom .content .fourthSection .products .subProducts p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.hom .content .fourthSection .products .subProducts span img {
+  width: 20px;
+  margin-top: -30px;
+}
+
+.hom .content .fourthSection .products .subProducts + span p {
+  font-weight: 600;
+  font-size: 18;
+  font-family: lucida;
+}
+
+.hom .content .fourthSection .products .subProducts + span small {
+  font-weight: 400;
+  font-size: 16;
+  font-family: lucida;
+}
 /*# sourceMappingURL=home.css.map */

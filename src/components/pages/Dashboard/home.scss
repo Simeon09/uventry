@@ -87,14 +87,16 @@
             margin-top: 20px;
             display: flex;
             justify-content: space-between;
-            .chart{
+
+            .chart {
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 20px;
                 background-color: white;
                 width: fit-content;
                 padding-top: 20px;
-            padding-left: 10px;
-        padding-right: 10px;            }
+                padding-left: 10px;
+                padding-right: 10px;
+            }
 
             .mainThird {
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -168,7 +170,7 @@
                 border-radius: 20px;
 
                 span:first-child {
-                    background-color:  #F9F9F9;
+                    background-color: #F9F9F9;
                     width: 150px;
                     border-radius: 20px;
                     padding-left: 20px;
@@ -176,11 +178,13 @@
                     font-weight: 400px;
                     font-style: italic;
                     padding-top: 10px;
-                    p{
+
+                    p {
                         font-style: normal;
                         font-weight: 600;
                         font-family: lucida;
-                        sup{
+
+                        sup {
                             color: #008000;
 
                         }
@@ -191,16 +195,100 @@
                     display: flex;
                     align-items: center;
                     padding-left: 15px;
-                    .icon{
+
+                    .icon {
                         color: #365A96;
                     }
-                    p{
+
+                    p {
                         padding-left: 5px;
                         font-size: 18px;
                         font-weight: 400px;
                         font-style: italic;
-                        padding-top: 10px;  
+                        padding-top: 10px;
                         color: #000000;
+                    }
+                }
+            }
+        }
+
+        .fourthSection {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px 20px 5px 5px;
+            margin-top: 20px;
+            background-color: #FFFFFF;
+            padding: 10px 20px;
+
+            .invoice {
+                display: flex;
+                justify-content: space-between;
+
+                select {
+                    margin-top: 5px;
+                    padding: 2px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    height: 30px;
+                    width: 80px;
+                    border-radius: 15px;
+                    background-color: #FFFFFF;
+                    color: #B8BBC6;
+                    font-family: Lucida;
+                    border: 2px solid #E6E9F1;
+
+                }
+
+                p {
+                    font-weight: 600;
+                    font-family: Lucida;
+                    font-size: 18px;
+                    color: #000000;
+                    padding-top: 15px;
+
+                }
+            }
+
+            .products {
+                padding: 0px 30px;
+                display: flex;
+                justify-content: space-between;
+
+                .subProducts {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    h5 {
+                        font-weight: 600;
+                        font-size: 18;
+                        font-family: lucida;
+                    }
+
+                    p {
+                        @extend h5;
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 16px;
+                        margin-top: -10px;
+                    }
+
+                    span {
+                        img {
+                            width: 20px;
+                            margin-top: -30px;
+                        }
+                    }
+                }
+                .subProducts + span{
+                    p{
+                        font-weight: 600;
+                        font-size: 18;
+                        font-family: lucida; 
+                    }
+                    small{
+                        font-weight: 400;
+                        font-size: 16;
+                        font-family: lucida; 
                     }
                 }
             }

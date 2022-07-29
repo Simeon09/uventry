@@ -7,7 +7,9 @@ import product from "../../assests/Images/New Product.svg";
 import shipped from "../../assests/Images/Shipped.svg";
 import groupE from "../../assests/Images/groupE.svg";
 import { HiShoppingCart } from "react-icons/hi";
-import PureComponent from "react";
+import music from '../../assests/Images/music.svg';
+import star from '../../assests/Images/Star (1).svg'
+import stars from '../../assests/Images/Star.svg'
 import {
   BarChart,
   Bar,
@@ -156,17 +158,37 @@ const Home = () => {
             </div>
           </div>
           <div className="chart">
-            
-              <BarChart width={730} height={250} data={data}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="pv" fill="#8884d8" />
-                <Bar dataKey="uv" fill="#82ca9d" />
-              </BarChart>
-            
+            <BarChart width={730} height={250} data={data}>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey="pv" fill="#8884d8" />
+              <Bar dataKey="uv" fill="#82ca9d" />
+            </BarChart>
+          </div>
+        </div>
+        <div  className=" fourthSection">
+          <div className=" invoice">
+            <p>Top products</p>
+            <select value={"year"}>
+              <option value={"year"}>year</option>
+              <option value={"2000"}>2000</option>
+              <option value={"2000"}>2001</option>
+              <option value={"2000"}>2002</option>
+              <option value={"2000"}>2003</option>
+            </select>
+          </div>
+          <div className="products">
+            <div className="subProducts">
+              <div><img src={music} alt='music'/></div>
+               <div><h5>Jabra</h5>
+               <p> Portable earbuds</p>
+               <span><img src={stars} alt='star'/><img src={stars} alt='star'/><img src={stars} alt='star'/> <img src={stars} alt='star'/> <img src={star} alt='star'/> </span>
+               </div>
+            </div>
+            <span>  <p>Quantity <br/> <small>24</small></p></span>
           </div>
         </div>
       </div>
