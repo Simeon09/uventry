@@ -32,7 +32,7 @@ const Buisness = () => {
               <span>
                 <img src={sidehustle} alt="side" />
                 <h4>Hustle Tech</h4>
-                <p>digitally yours!</p>
+                <p>Digitally yours!</p>
               </span>
               <span>
                 <p>Email</p>

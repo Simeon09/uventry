@@ -76,5 +76,26 @@
           justify-content: center;
   display: -ms-grid;
   display: grid;
+  padding-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.business .sectionTwo .firstSubsection .upperSection span:first-child h4 {
+  font-family: Lucida;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.business .sectionTwo .firstSubsection .upperSection span:first-child p {
+  font-family: Lucida;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
 }
 /*# sourceMappingURL=Buisness.css.map */
