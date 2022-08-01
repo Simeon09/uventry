@@ -83,7 +83,7 @@ const Buisness = () => {
                 <input type="number" />
               </form>
               <form>
-                <label for="lastname">last Name</label>
+                <label for="lastname">Last Name</label>
                 <br />
                 <input type="text" id="lastname" name="lastname" />
                 <br />
@@ -95,8 +95,9 @@ const Buisness = () => {
                 <input type="text" id="storename" name="storename" />
               </form>
             </div>
-            <span>
-              <button>Save</button> <button>Cancel</button>
+            <span className="control">
+              
+              <div><button className="controlBtn">Save</button></div> <div><button>Cancel</button></div>
             </span>
           </div>
         </div>

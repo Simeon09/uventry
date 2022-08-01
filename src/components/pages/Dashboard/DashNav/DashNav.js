@@ -20,7 +20,7 @@ const DashNav = () => {
     <div>
       <div className="dashboardnav">
         <div>
-          <button onClick={showsidebar}>
+          <button onClick={showsidebar} className="togglebtn">
             {sidebar ? <FaTimes /> : <FaBars />}
           </button>
         </div>
