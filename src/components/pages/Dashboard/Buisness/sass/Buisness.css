@@ -243,5 +243,15 @@
 .business .sectionTwo .secondSection .formcontrol form input {
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.business .sectionTwo .secondSection .formcontrol form label {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Lucida;
+  padding-bottom: 20px;
+  color: #84888C;
 }
 /*# sourceMappingURL=Buisness.css.map */
