@@ -1,20 +1,22 @@
-.business{
-    height: 1000px;
-    padding-top: 25px; 
-    
+.business {
+
+    padding-top: 25px;
+
     font-family: lucida;
     font-weight: 600;
     font-size: 20px;
     padding-right: 3vw;
     color: #000000;
+
     @media screen and (min-width:830px) {
         margin-left: 200px;
-        
+
     }
+
     .firstSection {
         display: flex;
         justify-content: space-between;
-       padding-top: 20px;
+        padding-top: 20px;
 
         span:first-child {
             font-family: Lucida;
@@ -23,7 +25,7 @@
             display: flex;
             gap: 10px;
 
-            p:first-child{
+            p:first-child {
                 font-style: italic;
 
             }
@@ -39,6 +41,25 @@
             color: white;
             border-radius: 15px;
             border: none;
+
+        }
+    }
+
+    .sectionTwo {
+        display: flex;
+        justify-content: space-between;
+
+        .firstSubsection {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            width: 461px;
+            .upperSection{
+           span:first-child{
+            justify-content: center;
+            display: grid;
+           }
+          }
 
         }
     }
