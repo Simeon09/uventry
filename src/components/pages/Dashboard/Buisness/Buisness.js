@@ -34,24 +34,22 @@ const Buisness = () => {
                 <h4>Hustle Tech</h4>
                 <p>Digitally yours!</p>
               </span>
-              <span>
-                <p>Email</p>
-                <p>hustletech@gmail.com</p>
-              </span>
-              <span>
-                <p>phone</p>
-                <p>+234 816 251 0181</p>
-              </span>
-              <span>
-                <p>city</p>
-                <p>lagos</p>
-              </span>
-              <span>
-                <p>store iD</p>
-                <p>HST00BC4312</p>
-              </span>
+              <div className="info">
+                <span>
+                  <p>Email</p>
+                  <p>phone</p>
+                  <p>city</p>
+                  <p>store iD</p>
+                </span>
+                <span>
+                  <p>hustletech@gmail.com</p>
+                  <p>+234 816 251 0181</p>
+                  <p>lagos</p>
+                  <p>HST00BC4312</p>
+                </span>
+              </div>
             </div>
-            <div>
+            <div className="lowerSection">
               <div>
                 {" "}
                 <img src={instagram} alt="instagram" />
@@ -64,13 +62,13 @@ const Buisness = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="secondSection">
             <span>
               <p>General</p>
               <p>Activities</p>
               <p>Transactions</p>
             </span>
-            <div>
+            <div className="formcontrol">
               <form>
                 <label for="fname">First Name</label>
                 <br />
@@ -79,6 +77,7 @@ const Buisness = () => {
                 <label for="lname">Email Address</label>
                 <br />
                 <input type="text" id="lname" name="lname" />
+                <br/>
                 <label>Phone Number</label>
                 <br />
                 <input type="number" />
@@ -90,7 +89,7 @@ const Buisness = () => {
                 <br />
                 <label for="cityname">City</label>
                 <br />
-                <input type="text" id="cityname" name="lname" />
+                <input type="text" id="cityname" name="lname" /><br/>
                 <label for="storename">Store ID</label>
                 <br />
                 <input type="text" id="storename" name="storename" />

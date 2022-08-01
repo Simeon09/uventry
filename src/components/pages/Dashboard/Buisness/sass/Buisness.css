@@ -60,14 +60,17 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 30px;
 }
 
-.business .sectionTwo .firstSubsection {
+.business .sectionTwo .firstSubsection .upperSection {
   background: #FFFFFF;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   width: 461px;
+  padding: 0px 3vw;
+  padding-bottom: 60px;
 }
 
 .business .sectionTwo .firstSubsection .upperSection span:first-child {
@@ -76,7 +79,7 @@
           justify-content: center;
   display: -ms-grid;
   display: grid;
-  padding-top: 10px;
+  padding-top: 14px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -89,6 +92,7 @@
   color: #000000;
   font-weight: 600;
   font-size: 24px;
+  padding-top: 10px;
 }
 
 .business .sectionTwo .firstSubsection .upperSection span:first-child p {
@@ -97,5 +101,147 @@
   font-weight: 400;
   font-size: 18px;
   font-style: italic;
+}
+
+.business .sectionTwo .firstSubsection .upperSection .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.business .sectionTwo .firstSubsection .upperSection .info span:nth-child(2) p {
+  font-size: 18px;
+  font-family: Lucida;
+  color: #969B9C;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.business .sectionTwo .firstSubsection .lowerSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  gap: 70px;
+  margin-bottom: 20px;
+}
+
+.business .sectionTwo .firstSubsection .lowerSection div:first-child {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 197px;
+  height: 168px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+}
+
+.business .sectionTwo .firstSubsection .lowerSection div:first-child p {
+  font-size: 18px;
+  font-family: Lucida;
+  color: #969B9C;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: -8px;
+}
+
+.business .sectionTwo .firstSubsection .lowerSection div:nth-child(2) {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 197px;
+  height: 168px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+}
+
+.business .sectionTwo .firstSubsection .lowerSection div:nth-child(2) p {
+  font-size: 18px;
+  font-family: Lucida;
+  color: #969B9C;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: -10px;
+}
+
+.business .sectionTwo .secondSection {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 610px;
+  padding: 30px 3vw;
+}
+
+.business .sectionTwo .secondSection span:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.business .sectionTwo .secondSection span:first-child p:first-child {
+  border-bottom: 2px solid #365A96;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Lucida;
+  padding-bottom: 10px;
+}
+
+.business .sectionTwo .secondSection span:first-child p {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Lucida;
+  padding-bottom: 10px;
+}
+
+.business .sectionTwo .secondSection .formcontrol {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.business .sectionTwo .secondSection .formcontrol form input {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 /*# sourceMappingURL=Buisness.css.map */
